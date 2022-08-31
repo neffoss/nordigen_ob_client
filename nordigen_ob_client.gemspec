@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.email       = "angelos@neffoss.com"
   s.files       = ["lib/nordigen_ob_client.rb"]
   s.homepage    = "https://github.com/neffoss/nordigen_ob_client"
-  s.license     = "Apache 2.0"
+  s.license     = "Apache-2.0"
 end
