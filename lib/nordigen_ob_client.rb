@@ -250,7 +250,7 @@ class NordigenOBClient
   #############################################################################
   def delete_requisition requisition_id
     response = RestClient.delete(
-      "https://ob.nordigen.com/api/v2/requisitions/#{requisition_id}",
+      "https://ob.nordigen.com/api/v2/requisitions/#{requisition_id}/",
       headers=@request_header)
     JSON.parse(response.body)
     response
